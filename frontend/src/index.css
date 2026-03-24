@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet popup dark theme */
+.leaflet-popup-content-wrapper {
+  background-color: #161b22 !important;
+  color: #e6edf3 !important;
+  border: 1px solid #30363d !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background-color: #161b22 !important;
+}
+
+.leaflet-popup-close-button {
+  color: #8b949e !important;
+}
+
+.leaflet-popup-close-button:hover {
+  color: #e6edf3 !important;
+}
+
+/* Scrollbar dark */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6e7681;
+}
+
+/* Remove Leaflet attribution box appearance for dark */
+.leaflet-control-attribution {
+  background: rgba(13, 17, 23, 0.7) !important;
+  color: #6e7681 !important;
+  font-size: 10px !important;
+}
+
+.leaflet-control-attribution a {
+  color: #8b949e !important;
+}
